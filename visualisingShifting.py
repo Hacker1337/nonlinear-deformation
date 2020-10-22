@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 firstN, secondN = (170, 181)
-shifting = 136
+shifting = 138
 
 data1 = np.loadtxt("данные для обработки/WFM" + str(firstN) + ".csv", skiprows=1, delimiter=',')
 data2 = np.loadtxt("данные для обработки/WFM" + str(secondN) + ".csv", skiprows=1, delimiter=',')
