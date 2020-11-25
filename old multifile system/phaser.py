@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 numbers = [[170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181], [239, 240, 241, 242, 243], [249, 250, 251, 252, 253, 254, 255, 256, 257], [268, 269, 270, 271, 272, 273, 274, 275, 276], [281, 282, 283, 284, 285, 286, 287, 288, 289], [291, 292, 293, 294, 295, 296, 297, 298]]
 
-output = open('phasesIncorrect.csv', 'a')
+output = open('../phasesIncorrect.csv', 'a')
 for grn in range(len(numbers)):
     print("group", numbers[grn][0], sep='\t')
     output.write("group" + "\t" + str(numbers[grn][0]) + "\n")

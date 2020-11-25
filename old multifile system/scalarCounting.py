@@ -9,7 +9,7 @@ numbers = [[170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181],
            [281, 282, 283, 284, 285, 286, 287, 288, 289],
            [291, 292, 293, 294, 295, 296, 297, 298]]
 
-output = open('correlations.txt', 'a')
+output = open('../correlations.txt', 'a')
 for grn in range(len(numbers)):
     print("group", numbers[grn][0], sep='\t')
     output.write("group" + "\t" + str(numbers[grn][0]) + "\n")
